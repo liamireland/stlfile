@@ -1,0 +1,36 @@
+{
+"metadata":
+{
+	"version":4.5,
+	"type":"Object",
+	"generator":"Object3D.toJSON"
+},
+"geometries":[
+	{
+		"uuid":"B1561FCE-56DB-47ED-8925-8C75D9F2E815",
+		"type":"RingGeometry",
+		"innerRadius":0.1,
+		"outerRadius":0.15,
+		"thetaSegments":32
+	}
+],
+"materials":[
+{
+	"uuid":"F63E1510-D8D2-4B12-9900-D0EC1717AA74",
+	"type":"MeshBasicMaterial",
+	"color":16753920,
+	"side":2,
+	"depthFunc":3,
+	"depthTest":true,
+	"depthWrite":true
+	}
+],
+"object":
+{
+	"uuid":"C503D966-9A01-46E0-9774-B0EBD58ABD78",
+	"type":"Mesh",
+	"layers":1,
+	"matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+	"geometry":"B1561FCE-56DB-47ED-8925-8C75D9F2E815",
+	"material":"F63E1510-D8D2-4B12-9900-D0EC1717AA74"}
+}
